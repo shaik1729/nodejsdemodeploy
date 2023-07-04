@@ -13,7 +13,10 @@ module.exports = mongoose => {
      category: String,
      location: String,
      main_image: String,
-     site_layout: String
+     site_layout: String,
+     about: String,
+     short_description: String,
+     specifications: String
     },
     { timestamps: true }
   );

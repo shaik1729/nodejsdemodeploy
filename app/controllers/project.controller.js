@@ -34,8 +34,11 @@ exports.create = (req, res) => {
     category: req.body.category,
     location: req.body.location,
     configuration: req.body.configuration || "",
-    main_image: new Buffer(req.body.main_image),
-    site_layout: new Buffer(req.body.site_layout)
+    main_image: req.body.main_image,
+    site_layout: req.body.site_layout,
+    about: req.body.about,
+    short_description: req.body.short_description,
+    specifications: req.body.specifications
   });
   // console.log(project);
 
