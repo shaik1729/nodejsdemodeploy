@@ -16,7 +16,8 @@ module.exports = mongoose => {
      site_layout: String,
      about: String,
      short_description: String,
-     specifications: String
+     specifications: String,
+     brochure: String
     },
     { timestamps: true }
   );
